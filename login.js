@@ -4,7 +4,7 @@ document.getElementById('login-button').addEventListener('click', function() {
 
 function loginWithSpotify() {
     const clientId = 'ae3422e92ee84fc39e64181f8c17cb7f'; // Replace with your client ID
-    const redirectUri = encodeURIComponent('https://localhost:8080'); // Replace with your redirect URI
+    const redirectUri = encodeURIComponent('https://airheart666.github.io/undergroundify/'); // Replace with your redirect URI
     const scopes = [
         'playlist-modify-public',
         'user-follow-read',
